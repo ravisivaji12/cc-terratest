@@ -9,7 +9,6 @@ type LockSpec struct {
 	Level string  `json:"level"`
 	Notes *string `json:"notes"`
 }
-
 type ResourceGroupSpec struct {
 	Location string            `json:"location"`
 	Tags     map[string]string `json:"tags"`

@@ -82,7 +82,7 @@ func TestGenericCcRgValidation(t *testing.T) {
 					}
 				}
 			}
-			assert.True(t, found, "Expected principal not assigned in "+rgName)
+			assert.True(t, found, "Expected principal not assigned in the "+rgName)
 		}
 	})
 }
