@@ -20,6 +20,6 @@
       "lock": null
     }
   },
-  "expected_principal_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-  "expected_roles": ["Contributor"]
+  "expected_principal_id": "5d976b48-4340-4c05-ab09-e80ef3751794",
+  "expected_roles": ["/subscriptions/abd34832-7708-43f9-a480-e3b7a87b41d7/providers/Microsoft.Authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c"]
 }
