@@ -1,0 +1,25 @@
+{
+  "resource_groups": {
+    "cc-prod-rg": {
+      "location": "canadacentral",
+      "tags": {
+        "env": "prod",
+        "owner": "cloudteam"
+      },
+      "lock": {
+        "level": "CanNotDelete",
+        "notes": "Production lock"
+      }
+    },
+    "cc-dev-rg": {
+      "location": "canadaeast",
+      "tags": {
+        "env": "dev",
+        "owner": "devteam"
+      },
+      "lock": null
+    }
+  },
+  "expected_principal_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "expected_roles": ["Contributor"]
+}
